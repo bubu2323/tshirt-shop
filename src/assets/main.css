@@ -1,0 +1,60 @@
+/* app.vue */
+ul.nav-bar {
+  border: 1px solid green;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  padding: 0.6em 0;
+}
+ul > li {
+  list-style: none;
+}
+ul.details-ul {
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+/* productDisplay.vue */
+.product-image {
+  /* border: 1px solid grey; */
+  border-radius: 10px;
+  text-align: center;
+  margin: 0.5em 3em;
+  padding: 1em;
+}
+.tshirt {
+  width: 20em;
+}
+.hidden {
+  opacity: 0.3;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.container-circles {
+  display: flex;
+  justify-content: space-around;
+}
+.circle-color {
+  box-sizing: border-box;
+  border-radius: 60%;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1em 0;
+}
+
+.product-display {
+  margin: 1em auto;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 1em;
+  max-width: 30em; 
+}
+.product-info {
+  padding: 0 3em;
+}
+div.materials {
+  padding: 0.7em 0;
+  text-align: left;
+}
